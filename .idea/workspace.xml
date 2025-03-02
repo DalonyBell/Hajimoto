@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b112df60-4987-4739-9533-8c45ef268875" name="Changes" comment="" />
+    <list default="true" id="b112df60-4987-4739-9533-8c45ef268875" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/services/haiku_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/services/haiku_generator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,27 +46,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.TestScript.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fine_tune_gpt.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fine_tune_gpt2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hayku_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mate.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/HaykuAI/Hajimoto/backend/app/models&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.TestScript.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.fine_tune_gpt.executor": "Run",
+    "Python.fine_tune_gpt2.executor": "Run",
+    "Python.generate.executor": "Run",
+    "Python.hayku_generator.executor": "Run",
+    "Python.mate.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "terry",
+    "last_opened_file_path": "D:/Projects/HaykuAI/Hajimoto/backend/app/models",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\HaykuAI\Hajimoto\backend\app\models" />
@@ -214,7 +217,7 @@
       <workItem from="1740741335502" duration="8329000" />
       <workItem from="1740814463960" duration="616000" />
       <workItem from="1740863454350" duration="2029000" />
-      <workItem from="1740903507476" duration="846000" />
+      <workItem from="1740903507476" duration="1178000" />
     </task>
     <servers />
   </component>

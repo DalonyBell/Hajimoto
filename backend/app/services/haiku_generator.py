@@ -135,7 +135,7 @@ class HaikuGenerator:
         """
         Generate a complete haiku poem with 5-7-5 syllable pattern.
 
-        Args:
+        Args
             theme: Optional theme for the haiku
 
         Returns:
