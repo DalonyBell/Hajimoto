@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b112df60-4987-4739-9533-8c45ef268875" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestScript.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/models/haiku.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routes/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routes/haiku.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routes/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/services/haiku_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/init_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_haiku.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fine_tune_gpt2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hayku_generator.py" beforeDir="false" />
-    </list>
+    <list default="true" id="b112df60-4987-4739-9533-8c45ef268875" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,7 +214,7 @@
       <workItem from="1740741335502" duration="8329000" />
       <workItem from="1740814463960" duration="616000" />
       <workItem from="1740863454350" duration="2029000" />
-      <workItem from="1740903507476" duration="306000" />
+      <workItem from="1740903507476" duration="846000" />
     </task>
     <servers />
   </component>
