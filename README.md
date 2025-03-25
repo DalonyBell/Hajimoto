@@ -1,69 +1,127 @@
-# Welcome to your Lovable project
+# HAJIMOTO AI
 
-## Project info
+![AI Haiku Haven Logo](public/placeholder.svg)
 
-**URL**: https://lovable.dev/projects/fed69760-d8e8-4a83-8432-6bd8abe21ca9
+A modern web application that generates beautiful haikus using AI, complete with customization options, visualization, and the ability to save and share your favorite poems.
 
-## How can I edit this code?
+## 🌟 Features
 
-There are several ways of editing your application.
+- **AI-Powered Haiku Generation**: Create beautiful haikus with different themes and styles
+- **Customization Options**: Control the mood, theme, and style of your generated haikus
+- **Visual Representation**: See your haikus beautifully displayed with matching visuals
+- **User Collections**: Save, organize, and revisit your favorite generated haikus
+- **Share Functionality**: Export and share your haikus across social media platforms
+- **Responsive Design**: Enjoy a seamless experience across desktop and mobile devices
 
-**Use Lovable**
+## 🚀 Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fed69760-d8e8-4a83-8432-6bd8abe21ca9) and start prompting.
+- **Frontend**: React 18, TypeScript, Vite
+- **UI Components**: Shadcn UI, Tailwind CSS
+- **State Management**: React Context API and Hooks
+- **Routing**: React Router v6
+- **Form Handling**: React Hook Form with Zod validation
+- **Visualization**: Recharts for data visualization
+- **Animation**: Tailwind CSS Animate for smooth transitions
+- **API Integration**: Fetch API with React Query
+- **Testing**: Jest and React Testing Library
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📋 Installation and Setup
 
-**Use your preferred IDE**
+1. **Clone the repository**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+git clone https://github.com/yourusername/ai-haiku-haven.git
+cd ai-haiku-haven
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. **Install dependencies**
 
-Follow these steps:
+```bash
+npm install
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Start the development server**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. **Build for production**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+## 🏗️ Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+ai-haiku-haven/
+├── public/                # Static files
+├── src/                   # Source code
+│   ├── components/        # Reusable components
+│   │   ├── ui/            # UI components from Shadcn
+│   │   └── ...            # Custom components
+│   ├── lib/               # Utility functions and helpers
+│   ├── hooks/             # Custom React hooks
+│   ├── pages/             # Page components
+│   ├── store/             # Global state management
+│   ├── types/             # TypeScript type definitions
+│   ├── main.tsx           # Entry point
+│   └── index.css          # Global styles
+├── .eslintrc.js           # ESLint configuration
+├── package.json           # Project dependencies
+├── tailwind.config.ts     # Tailwind CSS configuration
+├── tsconfig.json          # TypeScript configuration
+└── vite.config.ts         # Vite configuration
+```
 
-## What technologies are used for this project?
+## 💭 How It Works
 
-This project is built with .
+The application uses a combination of AI models to generate haikus based on user preferences:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. **Input Processing**: User selects themes, styles, and optional keywords
+2. **AI Generation**: The app sends these parameters to an AI model that creates multiple haikus
+3. **Display & Refinement**: Users can view, edit, regenerate, or save the haikus they like
+4. **Visualization**: Each haiku is paired with a visual representation matching its theme
 
-## How can I deploy this project?
+## 📱 Screenshots
 
-Simply open [Lovable](https://lovable.dev/projects/fed69760-d8e8-4a83-8432-6bd8abe21ca9) and click on Share -> Publish.
+*(Coming soon)*
 
-## I want to use a custom domain - is that possible?
+## 🔮 Future Enhancements
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- **User Accounts**: Personal collections and preferences
+- **AI Feedback Loop**: Improve the model based on user selections
+- **Extended Poetry Formats**: Support for other poetry forms like sonnets, limericks
+- **Audio Readings**: AI-generated voice readings of your haikus
+- **Community Features**: Share and discover haikus from other users
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👨‍💻 About the Developer
+
+I'm a Master's student in Computer Science passionate about combining AI with creative applications. This project showcases my skills in modern web development, AI integration, and creating intuitive user experiences.
+
+## 📞 Contact
+
+If you have any questions or feedback, please reach out:
+
+- GitHub: [YourGitHubUsername](https://github.com/yourusername)
+- Email: your.email@example.com
+- LinkedIn: [Your Name](https://linkedin.com/in/yourname)
+
+---
+
+Made with ❤️ and React
