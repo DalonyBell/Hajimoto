@@ -112,14 +112,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 I'm a Master's student in Computer Science passionate about combining AI with creative applications. This project showcases my skills in modern web development, AI integration, and creating intuitive user experiences.
 
-## 📞 Contact
-
-If you have any questions or feedback, please reach out:
-
-- GitHub: [YourGitHubUsername](https://github.com/yourusername)
-- Email: your.email@example.com
-- LinkedIn: [Your Name](https://linkedin.com/in/yourname)
-
----
-
-Made with ❤️ and React
+Thank you for your time and for viewing my work!
