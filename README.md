@@ -1,5 +1,5 @@
 # HAJIMOTO AI
-![image](https://github.com/user-attachments/assets/97272cef-fd56-4274-8589-7f69fbe59623)
+
 
 A modern web application that generates beautiful haikus using AI, complete with customization options, visualization, and the ability to save and share your favorite poems.
 
