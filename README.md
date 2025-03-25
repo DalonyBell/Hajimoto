@@ -1,7 +1,5 @@
 # HAJIMOTO AI
 
-![AI Haiku Haven Logo](public/placeholder.svg)
-
 A modern web application that generates beautiful haikus using AI, complete with customization options, visualization, and the ability to save and share your favorite poems.
 
 ## 🌟 Features
