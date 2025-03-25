@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 330 100% 70%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 340 4.8% 95.9%;
+    --secondary-foreground: 340 5.9% 10%;
+
+    --muted: 340 4.8% 95.9%;
+    --muted-foreground: 340 3.8% 46.1%;
+
+    --accent: 340 4.8% 95.9%;
+    --accent-foreground: 340 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 340 5.9% 90%;
+    --input: 340 5.9% 90%;
+    --ring: 340 5.9% 10%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 340 5.3% 26.1%;
+    --sidebar-primary: 340 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 340 4.8% 95.9%;
+    --sidebar-accent-foreground: 340 5.9% 10%;
+    --sidebar-border: 340 13% 91%;
+    --sidebar-ring: 340.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 330 100% 70%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .paper-texture {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffc0cb' fill-opacity='0.05' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-sm bg-white/80 border border-pink-200;
+  }
+
+  .haiku-card {
+    @apply relative bg-white shadow-md rounded-2xl p-6 transition-all duration-300 paper-texture border border-pink-200;
+  }
+
+  .haiku-text {
+    @apply text-lg font-serif text-pink-800 leading-relaxed;
+  }
+
+  .button-effect {
+    @apply transition-all duration-300 active:scale-95;
+  }
+  
+  .cherry-petal {
+    @apply absolute pointer-events-none;
+    animation: fall linear infinite;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-10vh) rotate(0deg);
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+    }
+  }
+}
+
