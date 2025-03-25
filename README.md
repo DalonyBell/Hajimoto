@@ -28,7 +28,7 @@ A modern web application that generates beautiful haikus using AI, complete with
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/ai-haiku-haven.git
+git clone https://github.com/DalonyBell/Hajimoto.git
 cd ai-haiku-haven
 ```
 
@@ -81,10 +81,6 @@ The application uses a combination of AI models to generate haikus based on user
 2. **AI Generation**: The app sends these parameters to an AI model that creates multiple haikus
 3. **Display & Refinement**: Users can view, edit, regenerate, or save the haikus they like
 4. **Visualization**: Each haiku is paired with a visual representation matching its theme
-
-## 📱 Screenshots
-
-*(Coming soon)*
 
 ## 🔮 Future Enhancements
 
