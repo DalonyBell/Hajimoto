@@ -79,15 +79,13 @@ ai-haiku-haven/
 The application uses a combination of AI models to generate haikus based on user preferences:
 
 1. **Input Processing**: User selects themes, styles, and optional keywords
-![image](https://github.com/user-attachments/assets/f2b1a5f9-c264-4a81-a1a8-c9a3e9531304)
+![image](https://github.com/user-attachments/assets/39afb130-279c-44e1-a47a-c0e88d9c82dc)
 
 3. **AI Generation**: The app sends these parameters to an AI model that creates multiple haikus
 ![image](https://github.com/user-attachments/assets/1f1b81a8-064c-41a7-ac5b-d02310b29348)
 
 4. **Display & Refinement**: Users can view, edit, regenerate, or save the haikus they like
-
-![image](https://github.com/user-attachments/assets/1e0398be-aec1-41ac-9248-1bcab97b30a0)
-
+![image](https://github.com/user-attachments/assets/8ccd8cf0-3232-4a86-9b8e-c51fc0b1b109)
 
 
 ## 🔮 Future Enhancements
