@@ -1,4 +1,4 @@
-# HAJIMOTO AI
+# HAJIMOTO A
 
 
 A modern web application that generates beautiful haikus using AI, complete with customization options, visualization, and the ability to save and share your favorite poems.
