@@ -7,7 +7,7 @@ A modern web application that generates beautiful haikus using AI, complete with
 
 - **AI-Powered Haiku Generation**: Create beautiful haikus with different themes and styles
 - **Customization Options**: Control the mood, theme, and style of your generated haikus
-- **Visual Representation**: See your haikus beautifully displayed with matching visuals
+- **Visual Representation**: See your haikus beautifully displayed
 - **User Collections**: Save, organize, and revisit your favorite generated haikus
 - **Share Functionality**: Export and share your haikus across social media platforms
 - **Responsive Design**: Enjoy a seamless experience across desktop and mobile devices
@@ -110,7 +110,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 About the Developer
+## 👨‍💻 About me
 
 I'm a Master's student in Computer Science passionate about combining AI with creative applications. This project showcases my skills in modern web development, AI integration, and creating intuitive user experiences.
 
